@@ -1,0 +1,49 @@
+﻿@page
+@model WebApplication2.Pages.TeaSets.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TeaSet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TeaSet.Name" class="control-label"></label>
+                <input asp-for="TeaSet.Name" class="form-control" />
+                <span asp-validation-for="TeaSet.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeaSet.Description" class="control-label"></label>
+                <input asp-for="TeaSet.Description" class="form-control" />
+                <span asp-validation-for="TeaSet.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeaSet.Price" class="control-label"></label>
+                <input asp-for="TeaSet.Price" class="form-control" />
+                <span asp-validation-for="TeaSet.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeaSet.ImagePath" class="control-label"></label>
+                <input asp-for="TeaSet.ImagePath" class="form-control" />
+                <span asp-validation-for="TeaSet.ImagePath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

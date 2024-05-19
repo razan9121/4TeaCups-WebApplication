@@ -1,0 +1,84 @@
+﻿@page
+@model WebApplication2.Pages.HomeModel
+@{
+    ViewData["Title"] = "Homepage";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-5">Welcome to the Central Homepage</h1>
+
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+        <a class="card-block bg-gradient " href="https://razan9121.github.io/personalWeb/index.html" style="background-color: #97B090;">
+            <div class="h-100 framer-su0imn">
+                    <img src="~/Images/RazanWeb.jpg" class="card-img-top card-img-bottom" alt="Razan's Personal Website">
+            </div>
+            <div class="framer-3l1cdg w-25">
+                <div class="framer-e1uy5s">
+                    <h5 class="text-muted">Razan's Website</h5>
+                </div>
+            </div>
+        </a>
+        </div>
+
+        <div class="col">
+            <a class="card-block bg-gradient" href="https://unreemable.github.io/Reems-Personal-Website/" style="background-color: #91B5BD;">
+
+                <div class="h-100 framer-su0imn">
+                    <img src="~/Images/ReemWeb22.jfif" class="card-img-top card-img-bottom" alt="Reem's Personal Website">
+                </div>
+                <div class="framer-3l1cdg">
+                    <div class="framer-e1uy5s">
+                        <h5 class="text-muted">Reem's Website</h5>
+                    </div>
+                </div>
+
+            </a>
+        </div>
+
+        <div class="col">
+            <a class="card-block bg-gradient" href="~/index.html" style="background-color: #A68CB5;">
+
+            <div class="h-100 framer-su0imn">
+                    <img src="~/Images/GhadiWeb.JPG" class="card-img-top card-img-bottom" alt="Ghadi's Personal Website" style="height:stretch">
+            </div>
+            <div class="framer-3l1cdg">
+                <div class="framer-e1uy5s">
+                    <h5 class="text-muted">Ghadi's Website</h5>
+                </div>
+            </div>
+
+        </a>
+        </div>
+
+        <div class="col">
+        <a class="card-block bg-gradient" href="https://wjdanb4.github.io/my-personal/" style="background-color: #AFC9CC;">
+
+            <div class="h-100 framer-su0imn">
+                    <img src="~/Images/WejdanWeb3.JPG" class="card-img-top card-img-bottom" alt="Wejdan's Personal Website">
+            </div>
+            <div class="framer-3l1cdg">
+                <div class="framer-e1uy5s">
+                    <h5 class="text-muted">Wejdan's Website</h5>
+                </div>
+            </div>
+
+        </a>
+        </div>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>  
+        <script>
+               $(document).ready(function () {
+                  $('.back-to-razor-page').click(function (e) {
+                     e.preventDefault();
+                     window.location.href = "/Home";
+                  });
+               });
+        </script>
+        
+    </div>
+        
+    
+

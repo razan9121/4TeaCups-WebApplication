@@ -1,0 +1,80 @@
+﻿@page
+@model WebApplication2.Pages.ShoppingModel
+
+@{
+    ViewData["Title"] = "Welcome to Our Tea Sets";
+}
+
+
+<div class="row">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h3 class="mb-4 px-4">Products</h3>
+        </div>
+        <div class="col-md-4 mb-4 d-flex justify-content-end">
+            <a asp-page="WelcomeUser" asp-page-handler="Logout" class="btn btn-sm btn-outline-dark mx-0">Logout</a>
+        </div>
+    </div>
+
+    @foreach (var item in Model.allTeaSets)
+    {
+        <div class="col-md-@(Model.GetProductColumns())">
+            <div class="card-deck px-4">
+                <div class="product-card">
+                    <img class="card-img-top" src="~/Images/@Html.DisplayFor(modelItem => item.ImagePath)" alt="@Html.DisplayFor(modelItem => item.Name)">
+                    <div class="card-body">
+                        <h3 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h3>
+                        <p class="card-text h5 text-muted">@Html.DisplayFor(modelItem => item.Price) SAR</p>
+                        <div class="d-flex">
+                            <button type="button" class="btn btn-dark px-5 py-2 semi-bold btn-lg mt-5 mb-3 add-to-cart-button">Add to Cart</button>
+                            <a asp-page="cart" asp-page-handler="buynow" asp-route-id="@item.Id" style="display: none;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
+
+@*
+<h1>Welcome @Model.WelcomeUsername to Our Tea Sets Store </h1>
+
+<a asp-page="Index" asp-page-handler="Logout">Logout</a>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>ImagePath</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.allTeaSets)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    SAR @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <img src="~/Images/@Html.DisplayFor(modelItem => item.ImagePath)" width="120" heigh="80" />
+                </td>
+                <td>
+                    <a asp-page="cart" asp-page-handler="buynow" asp-route-id="@item.Id">Add to cart</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@

@@ -1,0 +1,110 @@
+﻿@page
+@model WebApplication2.Pages.CartModel
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h3 class="mb-4">Shopping Cart</h3>
+        </div>
+        <div class="col-md-4 d-flex justify-content-end">
+            <a asp-page="WelcomeUser" asp-page-handler="Logout" class="btn btn-sm btn-outline-dark">Logout</a>
+        </div>
+    </div>
+
+    <form method="post" asp-page="cart">
+
+        <div class="cart-item-list">
+            @foreach (var item in Model.cart)
+            {
+                <div class="cart-item d-flex align-items-center border-bottom py-3">
+                    <div class="cart-item-image">
+                        <img src="~/Images/@Html.DisplayFor(modelItem => item.Product.ImagePath)" alt="@item.Product.Name" width="100" height="100">
+                    </div>
+                    <div class="cart-item-details flex-grow-1 ms-3">
+                        <h5 class="mb-1">@item.Product.Name</h5>
+                        <p class="text-muted">@item.Product.Description</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="quantity-input">
+                                <input type="number" name="quantities" value="@item.Quantity" min="1" style="width: 50px;" />
+                                <input type="submit" value="Update" class="btn btn-outline-dark btn-sm mb-1" asp-page-handler="update" asp-route-id="@item.Product.Id">
+                            </div>
+                            <div class="item-price">
+                                <span class="text-muted">SAR </span>
+                                @item.Product.Price
+                            </div>
+                            <div class="action-buttons">
+                                <a asp-page="cart" asp-page-handler="delete" asp-route-id="@item.Product.Id" class="link-dark fs-5 link-light"><i class="fi fi-sr-circle-xmark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="cart-summary d-flex justify-content-between py-4 border-top">
+            <p class="text-muted">Subtotal:</p>
+            <h5 class="mb-0">SAR @Model.Total</h5>
+        </div>
+
+        <div class="d-flex justify-content-end mt-4">
+            <a asp-page="Shopping" class="btn btn-dark btn-lg fw-bold">Continue Shopping</a>
+        </div>
+
+    </form>
+</div>
+
+
+@*
+<h3> Cart </h3>
+
+<form method="post" asp-page="cart">
+
+    <table class="table">
+        <tr>
+            <th>Action</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>ImagePath</th>
+        </tr>
+        <tbody>
+            @foreach (var item in Model.cart)
+            {
+                <tr align="center">
+                    <td align="center">
+                        <a asp-page="cart" asp-page-handler="delete" asp-route-id="@item.Product.Id">X</a>
+                    </td>
+
+                    <td>@item.Product.Name</td>
+                    <td>@item.Product.Description</td>
+                    <td>SAR @item.Product.Price</td>
+                    <td>
+                        <img src="~/Images/@Html.DisplayFor(modelItem => item.Product.ImagePath)" width="120" heigh="80" />
+                    </td>
+
+                    <td>
+                        <input type="number" name="quantities" value="@item.Quantity" min="1" style="width: 50px;" />
+                        <input type="submit" value="Update" asp-page-handler="update" asp-route-id="@item.Product.Id">
+                    </td>
+
+                    <td>
+                        SAR @(item.Product.Price * item.Quantity)
+                    </td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="7" align="right">Total</td>
+                <td align="center">SAR @Model.Total</td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+<a asp-page="Shopping">Continue Shopping</a>
+<br />
+<a asp-page="WelcomeUser" asp-page-handler="Logout">Logout</a>
+*@
