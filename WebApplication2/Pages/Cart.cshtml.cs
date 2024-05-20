@@ -22,6 +22,17 @@ namespace WebApplication2.Pages
         public void OnGet()
         {
             cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
+
+            // Check for empty cart
+            if (cart == null || cart.Count == 0)
+            {
+                ViewData["EmptyCartMessage"] = "Your shopping cart is currently empty. Start adding some awesome products!";
+            }
+            else
+            {
+                Total = (double)cart.Sum(i => i.Product.Price * i.Quantity);
+            }
+
             Total = (double)cart.Sum(i => i.Product.Price * i.Quantity);
         }
 

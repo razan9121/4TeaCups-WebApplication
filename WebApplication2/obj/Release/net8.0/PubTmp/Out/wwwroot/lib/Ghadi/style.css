@@ -1,0 +1,220 @@
+﻿
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #CBC3E3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+header h1 {
+margin: 0;
+}
+
+
+nav ul {
+  list-style-type:none;
+ 
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration:line;
+  color: purple;
+}
+
+nav ul li a:hover {
+  background-color: #AA98A9;
+  color: #fff;
+}
+----------------------
+.centered-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homepage-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.homepage-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-img figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.homepage-img {
+  animation: fadeIn 5s ease-in-out;
+}
+-----------------------
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+table td:last-child {
+  text-align: center;
+}
+
+
+
+------------
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  font-style: italic;
+  color: #666;
+}
+main {
+padding: 20px;
+}
+
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+.image-grid figure {
+  text-align: center;
+  margin: 0;
+}
+
+.image-grid img {
+ width: 350px;
+  height: 450px;
+}
+
+.image-grid figcaption {
+  font-style: italic;
+  color: #666;
+}
+
+
+form {
+  display: grid;
+  grid-gap: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+   background: linear-gradient(to bottom, #F2F2F2, #E2E2E2);
+  padding: 20px;
+}
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  background-color: #CBC3E3;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #AA98A9;
+
+}
+--------- about me ----------
+.about-me {
+  margin-bottom: 20px;
+}
+
+.about-me h2 {
+  color: #915F6D;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-me p:first-of-type {
+  margin-top: 0;
+}
+
+.about-me p:last-of-type {
+  margin-bottom: 0;
+}
+
+.icon {
+  width: 42px; 
+  height: 42px; /
+}
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}

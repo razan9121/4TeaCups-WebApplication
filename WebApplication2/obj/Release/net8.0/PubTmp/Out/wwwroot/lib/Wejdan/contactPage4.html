@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>WEJDAN SAAD ALAZIRY- Home</title>
+  <meta name="description" content="This is my first  website!">
+  <link rel="StyleSheet" href="StyleSheet4.css"> 
+ 
+</head>
+<body>
+<div class="full">
+  <header>
+      
+   <div class="navbar">
+  <ul>
+   <li><a href="indexPage1.html">Home</a></li>
+        <li><a href="apoutPage2.html">About</a></li>
+        <li><a href="profilePage3.html">Gallery</a></li>
+        <li><a href="contactPage4.html">Contact</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="exam.html">Exam</a></li>
+  </ul>
+</div>
+  </header>
+  
+<body>
+
+        <div class="container">
+        <h2 style="color: #fff;">Contact Form</h2>
+        <form id="contactForm">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div>
+            <label for="captcha">Captcha: What is 3 + 5?</label>
+            <input type="number" id="captcha" name="captcha">
+          </div>
+          <div>
+            <button type="submit" onclick="validateForm(event)">Submit</button>
+          </div>
+          <div id="errorContainer"></div>
+
+        </form>
+
+    </div>
+  
+
+  <script src="man.js">
+   
+  </script>
+  <footer style="text-align: center; color: #ffffff;">   
+    <div class="copyright-notice">
+      <p>&copy; <time datetime="2024">2024,</time> All rights reserved by Wijdan Al-Azairi</p>
+    </div>
+  </footer>
+ 
+</body>
+
+</html>

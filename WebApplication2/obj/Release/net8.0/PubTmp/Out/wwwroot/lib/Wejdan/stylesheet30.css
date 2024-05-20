@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  button {
+    font-size: 2em;
+    padding: 10px 30px;
+    margin: 0 10px;
+  }
+  #result {
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  #game-board {
+    animation: shake 0.5s ease-in-out;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .rock {
+    background-color: rgb(0, 0, 0);
+    color:#FFF;
+
+  }
+  .paper {
+    background-color: rgb(168, 0, 0);
+    color:#FFF;
+  }
+  .scissors {
+    background-color: rgb(100, 100, 100);
+
+    color:#FFF;
+
+  }
+  .player-win {
+    color: green;
+    
+  }
+  .computer-win {
+    color: red;
+  }
+  .tie {
+    color: white;
+  }
+  
+  .container {
+
+max-width: 500px;
+margin: 50px auto;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

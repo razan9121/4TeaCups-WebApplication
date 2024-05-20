@@ -1,0 +1,84 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+ background-image: linear-gradient(147deg, #212121 10%, #607d8b 100%); 
+   font-family: Arial, sans-serif;
+}
+
+.full {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333; 
+}
+
+
+.navbar {
+ background-image: linear-gradient(147deg, #212121 10%, #607d8b 100%);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;/*control the display of word*/
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+}
+.image-container {
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* Enlarge image on hover */
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover figcaption {
+  opacity: 1; /*the words appear in the picture*/
+}

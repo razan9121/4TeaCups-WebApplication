@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+ <h1>lets play a game !! </h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me </a></li>
+        <li><a href="gallery.html">My Gallery</a></li>
+        <li><a href="contact.html">Contact me </a></li>
+        <li><a href="findMe.html">find me </a></li>
+        <li><a href="game.html">game</a></li>
+        <li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </nav>
+    </header>
+    <body onload="startQuiz()">
+  <h1>Math Quiz</h1>
+  <form id="quizForm" onsubmit="checkAnswer(event)">
+    <p id="question"></p>
+    <input type="text" id="answer">
+    <button type="submit">Submit</button>
+  </form>
+  <p id="score"></p>
+  <script src="Script1.js"></script>
+</body>
+ 
+
+</html>
