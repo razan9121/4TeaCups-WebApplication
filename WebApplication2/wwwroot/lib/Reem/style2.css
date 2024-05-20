@@ -1,0 +1,212 @@
+﻿/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  
+}
+
+/* Navigation link hover effect */
+nav ul li a:hover {
+  color: #4CAF50; 
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ADD8E6;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main section styling */
+section {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-image: linear-gradient(#ADD8E6, #CBC3E3, #FFFFAD);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+section th, section td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section th {
+  background-color: #f4f4f4;
+}
+
+figcaption {
+  color: green;
+}
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(203, 195, 227);
+  color: #fff;
+}
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Apply the fade-in animation to the game section */
+#game {
+  animation: fadeIn 1s ease-in-out;
+}
+/* Define the bounce animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Apply the bounce animation to the game buttons */
+.choices button {
+  animation: bounce 4s ease-in-out ;
+}
+/* Apply the fade-in animation to the greeting message */
+#greetingMessage {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Styling for quiz page */
+#quiz {
+  background-color: #f9f9f9;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#answer {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #AA98A9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #7d6a7d;
+}
+
+#score {
+  font-size: 30px;
+  color: black; 
+  margin-top: 20px;
+}
+
+/* Styling for game page */
+#game {
+  background-color: #f9f9f9;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#game h2 {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choices button {
+  padding: 20px 30px;
+  background-color: #AA98A9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choices button:hover {
+  background-color: #7d6a7d;
+}
+
+#result {
+  font-size: 20px;
+  color: black;
+}

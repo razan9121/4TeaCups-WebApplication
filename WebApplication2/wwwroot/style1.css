@@ -56,3 +56,19 @@
     width: 1px;
 }
 
+.navbar-brand img {
+    width: auto;
+    height: 150px;
+}
+
+.nav-fsize {
+    font-size: 20px;
+}
+
+.store-img {
+    max-width: 100%;
+    height: auto;
+    background-size: cover; 
+    background-position: top; 
+    padding: 1rem;
+}

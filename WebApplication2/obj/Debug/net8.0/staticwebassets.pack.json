@@ -1,0 +1,781 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\GhadiWeb.JPG",
+      "PackagePath": "staticwebassets\\Images\\GhadiWeb.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\RazanWeb.jpg",
+      "PackagePath": "staticwebassets\\Images\\RazanWeb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\ReemWeb22.jfif",
+      "PackagePath": "staticwebassets\\Images\\ReemWeb22.jfif"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\WejdanWeb3.JPG",
+      "PackagePath": "staticwebassets\\Images\\WejdanWeb3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\store.png",
+      "PackagePath": "staticwebassets\\Images\\store.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup1.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup2.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup3.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup4.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup5.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup6.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup7.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\teacup8.JPG",
+      "PackagePath": "staticwebassets\\Images\\teacup8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\Images\\website logo.png",
+      "PackagePath": "staticwebassets\\Images\\website logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\Script1.js",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\Script1.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\about.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\contact.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\favicon.ico",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\findMe.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\findMe.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\freinds.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\freinds.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\gallery.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\game.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\game.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\linkedin.png",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\picnic.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\picnic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\quiz.html",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\quiz.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\style.css",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\tacos.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\tacos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Ghadi\\twitter.png",
+      "PackagePath": "staticwebassets\\lib\\Ghadi\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\LL.png",
+      "PackagePath": "staticwebassets\\lib\\Razan\\LL.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\RB.png",
+      "PackagePath": "staticwebassets\\lib\\Razan\\RB.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\When_Marnie_Was_There_Screenshot_0150.jpg",
+      "PackagePath": "staticwebassets\\lib\\Razan\\When_Marnie_Was_There_Screenshot_0150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\about.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\about.jpg",
+      "PackagePath": "staticwebassets\\lib\\Razan\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\contact.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\contactscript.js",
+      "PackagePath": "staticwebassets\\lib\\Razan\\contactscript.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\gallery.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\game.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\game.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\gamescript.js",
+      "PackagePath": "staticwebassets\\lib\\Razan\\gamescript.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\quiz.html",
+      "PackagePath": "staticwebassets\\lib\\Razan\\quiz.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\quizscript.js",
+      "PackagePath": "staticwebassets\\lib\\Razan\\quizscript.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\script.js",
+      "PackagePath": "staticwebassets\\lib\\Razan\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\style.css",
+      "PackagePath": "staticwebassets\\lib\\Razan\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Razan\\wd.png",
+      "PackagePath": "staticwebassets\\lib\\Razan\\wd.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\Draw1.jpg",
+      "PackagePath": "staticwebassets\\lib\\Reem\\Draw1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\Draw2.jpg",
+      "PackagePath": "staticwebassets\\lib\\Reem\\Draw2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\Draw3.jpg",
+      "PackagePath": "staticwebassets\\lib\\Reem\\Draw3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\For the first page.jpg",
+      "PackagePath": "staticwebassets\\lib\\Reem\\For the first page.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\REEM-LOGO.png",
+      "PackagePath": "staticwebassets\\lib\\Reem\\REEM-LOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\Script1.js",
+      "PackagePath": "staticwebassets\\lib\\Reem\\Script1.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\Script2.js",
+      "PackagePath": "staticwebassets\\lib\\Reem\\Script2.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\about.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\article1.jpg",
+      "PackagePath": "staticwebassets\\lib\\Reem\\article1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\article2.png",
+      "PackagePath": "staticwebassets\\lib\\Reem\\article2.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\contact.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\gallery.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\game.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\game.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\quiz.html",
+      "PackagePath": "staticwebassets\\lib\\Reem\\quiz.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\style2.css",
+      "PackagePath": "staticwebassets\\lib\\Reem\\style2.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Reem\\style4.css",
+      "PackagePath": "staticwebassets\\lib\\Reem\\style4.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\.hintrc",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\.hintrc"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\1.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\12.png",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\2.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\3.jpg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\StyleSheet11.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\StyleSheet11.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\StyleSheet2.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\StyleSheet2.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\StyleSheet3.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\StyleSheet3.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\StyleSheet4.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\StyleSheet4.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\WhatsApp Image 2024-04-20 at 19.14.31_9e89ed8f.jpg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\WhatsApp Image 2024-04-20 at 19.14.31_9e89ed8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\apoutPage2.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\apoutPage2.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\contactPage4.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\contactPage4.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\exam.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\exam.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\game.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\game.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\indexPage1.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\indexPage1.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\logo.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\logo.jpg",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\man.js",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\man.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\profilePage3.html",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\profilePage3.html"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\stylesheet30.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\stylesheet30.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\sylesheet20.css",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\sylesheet20.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\Wejdan\\warehouse-worker-manager-passing-box_13339-279219.avif",
+      "PackagePath": "staticwebassets\\lib\\Wejdan\\warehouse-worker-manager-passing-box_13339-279219.avif"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\sovat\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\style1.css",
+      "PackagePath": "staticwebassets\\style1.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication2.props",
+      "PackagePath": "build\\WebApplication2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication2.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication2.props",
+      "PackagePath": "buildTransitive\\WebApplication2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

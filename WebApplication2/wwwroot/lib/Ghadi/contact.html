@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>contact ghadi</title>
+     
+</head>
+<body>
+<header>
+<h1> contact me   </h1> 
+<nav>
+      <ul>
+       <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me </a></li>
+        <li><a href="gallery.html">My Gallery</a></li>
+        <li><a href="contact.html">Contact me </a></li>
+        <li><a href="findMe.html">find me </a></li>
+                <li><a href="game.html">game</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+
+      <div id="captcha-container"></div>
+      <input type="submit" value="Send Message">
+    </form>
+  </main>
+  <script src="Script1.js"></script>
+</body>
+</html>

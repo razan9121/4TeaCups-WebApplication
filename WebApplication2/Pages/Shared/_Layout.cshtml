@@ -11,27 +11,30 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-0 mt-0" style="background-color: #d9ab6aa8;">
             <div class="container">
-                <a class="navbar-brand text-white" asp-area="" asp-page="/Index">WebApplication2</a>
+                <a class="navbar-brand" href="/">
+                    <img src="~/images/website logo.png" class="d-inline-block align- " alt="4teacups"/>
+                </a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-white">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-dark">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Login</a>
+                            <a class="nav-link text-dark nav-fsize muted" asp-area="" asp-page="/Index">Log in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Shopping">Shopping</a>
+                            <a class="nav-link text-dark nav-fsize" asp-area="" asp-page="/Home">Central Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Cart">Shopping Cart</a>
+                            <a class="nav-link text-dark nav-fsize" asp-area="" asp-page="/Shopping">Shopping</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Home">Home</a>
+                            <a class="nav-link text-dark nav-fsize" asp-area="" asp-page="/Cart">Shopping Cart</a>
                         </li>
                     </ul>
                 </div>
@@ -45,9 +48,9 @@
         </main>
     </div>
     
-    <footer class="border-top footer text-muted bg-dark">
+    <footer class="border-top footer text-muted" style="background-color: #d9ab6aa8;">
         <div class="container">
-            &copy; 2024 - WebApplication2 - <a style="text-decoration:none; color:white;"; asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2024 - WebApplication2 - <a style="text-decoration:none; color: black;"; asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
