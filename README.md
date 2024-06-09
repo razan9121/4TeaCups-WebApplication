@@ -34,3 +34,9 @@ This group project aims to enhance the functionality of individual personal webs
 
 ### Consistent Navigation
 - Ensured consistent navigation across all pages, including the central homepage, individual personal sites, and the unified shopping page, for a seamless user experience.
+
+## Technologies Used
+- **ASP.NET**: For backend development and data handling.
+- **HTML/CSS**: For structuring and styling the website.
+- **JavaScript**: For adding interactivity and dynamic content.
+- **Entity Framework**: For database operations.
